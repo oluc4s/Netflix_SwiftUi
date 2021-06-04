@@ -20,12 +20,12 @@ struct ContentView: View {
                         ScrollViewReader { value in
 
                         HStack{
-                            ForEach(0 ..< 6) { item in
+                            ForEach(0 ..< 60) { item in
                                 HStack{
-                                    CardFocusView(item: item)
+                                    CardFocusView(item: item % 7)
                                 }.id(item)
                             }
-                        }.onAppear{value.scrollTo(3, anchor: .center)}
+                        }.onAppear{value.scrollTo(31, anchor: .center)}
                     }
                     }
                     TitleList(title: "CONTINUE ", subTitle: "WATCHING")
@@ -156,24 +156,31 @@ struct MovieAttendingView:View {
     var item: Int = 0
     var body: some View{
         ZStack{
-            Color("Color\(item)")
             VStack{
+                ZStack{
                 Image("postl\(item)").resizable().frame(width: 120, height: 170, alignment: .center)
-            }
-            VStack{
-                Spacer()
-                HStack{
-                    Rectangle().frame(width: (CGFloat(item) * 4), height: 3).foregroundColor(Color("rednetflix"))
-                    Spacer()
+                    VStack{
+                        Spacer()
+                     
+                        HStack{
+                            VStack{
+                                HStack{
+                                    Rectangle().frame(width: (13 * CGFloat(item)), height: 3).foregroundColor(Color("rednetflix"))
+                                    Spacer()
+                                }
+                                HStack{
+                                    Spacer()
+                                    Text("S 2: E 11").font(.system(size: 13, weight: .light)).foregroundColor(.white)
+                                    Image(systemName: "play.circle").font(.system(size: 13, weight: .light)).foregroundColor(.white)
+                                    Spacer()
+                                }
+                            }
+                        }.background(Color.black.opacity(0.7))
+                    }
                 }
-                HStack{
-                  
-                    Spacer()
-                    Text("S 2: E 11").font(.system(size: 15, weight: .light)).foregroundColor(.white)
-                    Image(systemName: "play.circle").foregroundColor(.white)
-                    Spacer()
-                }.background(Color.black.opacity(0.5).blur(radius: 3.0))
+                
             }
+          
         }.frame(width: 120, height: 170, alignment: .center).cornerRadius(15)
     }
 }
