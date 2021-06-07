@@ -13,6 +13,7 @@ enum rota {
     case search
     case movie
     case download
+    case Fav
 }
 
 struct ContentView: View {
@@ -27,6 +28,8 @@ struct ContentView: View {
                 PlayerView(rota: $rota)
             }else if rota == .download{
                 DownloadView(rota: $rota)
+            }else if rota == .Fav{
+                FavView(rota: $rota)
             }
         }
     }

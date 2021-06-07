@@ -11,7 +11,6 @@ struct MenuTopView: View{
     var body: some View{
         VStack{
             HStack{
-     
                 Image("netflix_logo_small").resizable().frame(width: 33, height: 33)
                 Spacer()
                 Image(systemName: "airpods").font(.system(size: 19)).foregroundColor(.white).frame(width: 33, height: 33)

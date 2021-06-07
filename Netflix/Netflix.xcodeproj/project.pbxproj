@@ -26,6 +26,7 @@
 		A0465852266A9D1300B0F210 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0465851266A9D1300B0F210 /* PlayerView.swift */; };
 		A0465857266AB2D100B0F210 /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0465856266AB2D100B0F210 /* DownloadView.swift */; };
 		A046585A266AB38900B0F210 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0465859266AB38900B0F210 /* AccountView.swift */; };
+		A0936C21266E3CF200D6332D /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0936C20266E3CF200D6332D /* FavView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		A0465851266A9D1300B0F210 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		A0465856266AB2D100B0F210 /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
 		A0465859266AB38900B0F210 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		A0936C20266E3CF200D6332D /* FavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				A046583B266A8FE600B0F210 /* Search */,
 				A046583A266A8FE000B0F210 /* Home */,
 				A046584A266A9B4E00B0F210 /* MenuTopView.swift */,
+				A0936C20266E3CF200D6332D /* FavView.swift */,
 				A046584C266A9B5F00B0F210 /* MenuBarView.swift */,
 			);
 			path = View;
@@ -363,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0465849266A9B3600B0F210 /* MovieAttendingView.swift in Sources */,
+				A0936C21266E3CF200D6332D /* FavView.swift in Sources */,
 				A046584B266A9B4E00B0F210 /* MenuTopView.swift in Sources */,
 				A046583E266A902200B0F210 /* SearchView.swift in Sources */,
 				A0465810266A4D0A00B0F210 /* Persistence.swift in Sources */,

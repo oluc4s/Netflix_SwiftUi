@@ -16,7 +16,7 @@ struct MenuBarView: View{
             Spacer()
             HStack{
             VStack{
-                HStack(spacing: 60){
+                HStack(spacing: 40){
                     Image(systemName: "house").font(.title).foregroundColor(rota == .home ? .blue : .white).onTapGesture {
                         rota = .home
                     }
@@ -29,12 +29,16 @@ struct MenuBarView: View{
                     Image(systemName: "arrow.down.to.line.alt").font(.title).foregroundColor(rota == .download ? .blue : .white).onTapGesture {
                         rota = .download
                     }
+                    Image(systemName:"star.circle.fill").font(.title).foregroundColor(rota == .Fav ? .blue : .white).onTapGesture {
+                        rota = .Fav
+                    }
                 }.padding()
             }.background(Color.black.blur(radius: 1).opacity(0.9)).clipShape(Capsule())
         
         }
         }.ignoresSafeArea(.keyboard)
     }
+    
 }
 
 struct MenuBarView_Previews: PreviewProvider {

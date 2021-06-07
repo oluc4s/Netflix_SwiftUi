@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct MovieAttendingView:View {
+    @State var isFav: Bool = true
     var item: Int = 0
     var body: some View{
         ZStack{
@@ -35,7 +36,15 @@ struct MovieAttendingView:View {
                 }
                 
             }
-          
+            VStack{
+                HStack{
+                    Spacer()
+                    Image(systemName: isFav ? "star" : "star.fill").foregroundColor(.white).shadow(color: .black, radius: 3, x: 1, y: 2).onTapGesture {
+                        isFav.toggle()
+                    }
+                }.padding([.horizontal],5).padding(.top,1)
+             Spacer()
+            }
         }.frame(width: 120, height: 170, alignment: .center).cornerRadius(15)
     }
 }
