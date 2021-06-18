@@ -15,6 +15,7 @@
 		A0465813266A4D0A00B0F210 /* Netflix.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0465811266A4D0A00B0F210 /* Netflix.xcdatamodeld */; };
 		A046581E266A4D0A00B0F210 /* NetflixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A046581D266A4D0A00B0F210 /* NetflixTests.swift */; };
 		A0465829266A4D0A00B0F210 /* NetflixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0465828266A4D0A00B0F210 /* NetflixUITests.swift */; };
+<<<<<<< HEAD
 		A046583E266A902200B0F210 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A046583D266A902200B0F210 /* SearchView.swift */; };
 		A0465840266A912D00B0F210 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A046583F266A912D00B0F210 /* HomeView.swift */; };
 		A0465843266A9A8700B0F210 /* CardFocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0465842266A9A8700B0F210 /* CardFocusView.swift */; };
@@ -27,6 +28,8 @@
 		A0465857266AB2D100B0F210 /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0465856266AB2D100B0F210 /* DownloadView.swift */; };
 		A046585A266AB38900B0F210 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0465859266AB38900B0F210 /* AccountView.swift */; };
 		A0936C21266E3CF200D6332D /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0936C20266E3CF200D6332D /* FavView.swift */; };
+=======
+>>>>>>> parent of 4e8e2ab (new icons, search, player and view)
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,7 @@
 		A0465824266A4D0A00B0F210 /* NetflixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetflixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0465828266A4D0A00B0F210 /* NetflixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixUITests.swift; sourceTree = "<group>"; };
 		A046582A266A4D0A00B0F210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		A046583D266A902200B0F210 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		A046583F266A912D00B0F210 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A0465842266A9A8700B0F210 /* CardFocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardFocusView.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 		A0465856266AB2D100B0F210 /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
 		A0465859266AB38900B0F210 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		A0936C20266E3CF200D6332D /* FavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> parent of 4e8e2ab (new icons, search, player and view)
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +129,6 @@
 		A0465805266A4D0700B0F210 /* Netflix */ = {
 			isa = PBXGroup;
 			children = (
-				A0465836266A8FBF00B0F210 /* UI */,
 				A0465806266A4D0700B0F210 /* NetflixApp.swift */,
 				A0465808266A4D0700B0F210 /* ContentView.swift */,
 				A046580A266A4D0A00B0F210 /* Assets.xcassets */,
@@ -161,6 +166,7 @@
 			path = NetflixUITests;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		A0465836266A8FBF00B0F210 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +242,8 @@
 			path = Account;
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> parent of 4e8e2ab (new icons, search, player and view)
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -365,22 +373,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				A0465849266A9B3600B0F210 /* MovieAttendingView.swift in Sources */,
 				A0936C21266E3CF200D6332D /* FavView.swift in Sources */,
 				A046584B266A9B4E00B0F210 /* MenuTopView.swift in Sources */,
 				A046583E266A902200B0F210 /* SearchView.swift in Sources */,
+=======
+>>>>>>> parent of 4e8e2ab (new icons, search, player and view)
 				A0465810266A4D0A00B0F210 /* Persistence.swift in Sources */,
-				A0465857266AB2D100B0F210 /* DownloadView.swift in Sources */,
-				A046584F266A9B9700B0F210 /* TitleList.swift in Sources */,
-				A0465843266A9A8700B0F210 /* CardFocusView.swift in Sources */,
 				A0465809266A4D0700B0F210 /* ContentView.swift in Sources */,
-				A0465852266A9D1300B0F210 /* PlayerView.swift in Sources */,
-				A046585A266AB38900B0F210 /* AccountView.swift in Sources */,
-				A0465840266A912D00B0F210 /* HomeView.swift in Sources */,
-				A0465847266A9B2300B0F210 /* MovieSeeView.swift in Sources */,
 				A0465813266A4D0A00B0F210 /* Netflix.xcdatamodeld in Sources */,
 				A0465807266A4D0700B0F210 /* NetflixApp.swift in Sources */,
-				A046584D266A9B5F00B0F210 /* MenuBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
